@@ -28,6 +28,16 @@ $ td create td-card-20180101 video-once
 $ td create td-card-20180101 video-multiple
 ```
 
+``` bash
+$ td check  // 输出已有模版的json信息
+
+模版类型暂分为以下几种：
+normal （基础项目）
+video-once（单一视频）
+video-multiple（多段视频）
+pc-normal（pc-基本项目）
+
+```
 ### License ###
 
 [MIT](https://opensource.org/licenses/MIT)
